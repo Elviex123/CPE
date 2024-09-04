@@ -3,20 +3,19 @@
 using namespace std;
 
 struct Num {
-    int n;  // ?值
-    int r;  // 余?
-    bool odd;  // 是否是奇?
+    int n;  
+    int r;  
+    bool odd;  
 };
 
-// 自定?比?函?
 bool comp(const Num& a, const Num& b) {
-    // 首先按余?排序，余?小的排前面
+
     if (a.r != b.r) return a.r < b.r;
 
-    // 如果余?相同，按照 odd 值排序，奇?排在前面
+
     if (a.odd != b.odd) return a.odd;
 
-    // 如果 odd 值也相同，按?值升序排序
+
     return a.n < b.n;
 }
 
