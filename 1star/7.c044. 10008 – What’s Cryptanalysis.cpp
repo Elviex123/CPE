@@ -10,11 +10,11 @@ using namespace std;
 int main() {
     int n, length, i, j;
     char msg[len];
-    char alp[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // 將陣列大小設為27，以包括結束的空字符
-    int num[26] = {}; // 初始化為0的數組
+    char alp[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+    int num[26] = {}; 
 
     cin >> n;
-    cin.ignore();  // 忽略緩衝區中的換行符
+    cin.ignore();  
     for (i = 0; i < n; i++) {
         cin.getline(msg, len);
         length = strlen(msg);
@@ -25,7 +25,7 @@ int main() {
         }
     }
 
-    // 按頻率排序，同頻率按字母順序排序
+
     for (i = 0; i < 25; i++) {
         for (j = 0; j < 25 - i; j++) {
             if (num[j] < num[j + 1] || (num[j] == num[j + 1] && alp[j] > alp[j + 1])) {
@@ -35,7 +35,7 @@ int main() {
         }
     }
 
-    // 輸出結果
+    // 嚙踝蕭X嚙踝蕭嚙瘦
     for (j = 0; j < 26; j++) {
         if (num[j] > 0) {
             printf("%c %d\n", alp[j], num[j]);
