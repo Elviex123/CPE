@@ -1,4 +1,3 @@
-//e531: 10415 �V Eb Alto Saxophone Player
 
 #include <iostream>
 #include <map>
