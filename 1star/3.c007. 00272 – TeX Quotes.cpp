@@ -14,5 +14,5 @@ int main()
             else cout<<c;
     }
 }
-//get:接收一行字串，可包含空格
+
  

@@ -1,5 +1,5 @@
 //cpe-28
-
+//20231212考過
 #include<iostream>
 #include<iomanip> 
 using namespace std;

@@ -35,7 +35,7 @@ int main() {
         }
     }
 
-    // ��X���G
+    
     for (j = 0; j < 26; j++) {
         if (num[j] > 0) {
             printf("%c %d\n", alp[j], num[j]);
