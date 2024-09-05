@@ -1,6 +1,6 @@
 //cpe-31
 #include<iostream>
-#include<map>//給數字賦予意義 (ex:學號) 
+#include<map>
 using namespace std;
 int main()
 {

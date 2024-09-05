@@ -15,7 +15,5 @@ int main()
 			cout<<floor(sqrt(b)-ceil(sqrt(a))+1)<<endl;
 	}
 }
-//ceil: > or = x 程俱计 
-//floor:< or = x 程俱计 
-//sqrt:秨腹
+
 

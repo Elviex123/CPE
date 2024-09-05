@@ -1,5 +1,6 @@
 //cpe-37
-//e575: 10908 ?V Largest Squares
+//e575: 10908 Largest Squares
+//20240521考過
 #include <iostream>
 #include <cstring>
 #include <algorithm>
