@@ -2,7 +2,6 @@
 #include <cstring>
 #include <algorithm>
 using namespace std;
-
 struct word {
     int code, time;
 };
